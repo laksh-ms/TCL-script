@@ -1,16 +1,32 @@
-# TCL Script
-Introduction to Advanced Scripting Techniques in VLSI Design and Synthesis 
+# TCL Scripting: Introduction to Advanced Scripting Techniques in VLSI Design and Synthesis.
+
 
 Author: Lakshmi M S
 
-Acknowledgements: TCL Workshop by Mr. Kunal Ghosh, VLSI System Design
+Acknowledgements: A TCL-Workshop by Kunal Ghosh, VLSI System Design Corp. Pvt. Ltd.
+
+# TCL Workshop Agenda
+The agenda for the workshop is to automate User Interface(uI) by using TCL script, which will take RTL netlist & SDC constraints as inputs and will generate synthesized netlist & pre-layout timing report as output. It uses Yosys, a Open source tool for synthesis and Opentimer to generate pre-layout timing reports.
+
+It was achieved as below:
+
+Day-1 : Creating a TCL command and pass .csv file from UNIX shell to tcl script
+
+Day-2 : Variable Creation and Processing Constraints from CSV
+
+Day-3 : Processing Clock and Input Constraints
+
+Day 4: Complete Scripting and Yosys Synthesis
+
+Day 5: Advanced Scripting Techniques and Quality of Results Generation
+
 
 # Introduction
-Tcl (pronounced "tickle") is a high-level, general-purpose, interpreted, dynamic scripting language commonly used in various domains, including software development, system administration, and electronic design automation (EDA). 
+Tcl, stands for Tool Command Language (pronounced "tickle") is a high-level, general-purpose, interpreted, dynamic scripting language commonly used in various domains, including software development, system administration, and electronic design automation (EDA). TCL scripting plays a crucial role in the field of VLSI design and verification, making it an indispensable tool for semiconductor engineers. VLSI projects involve complex tasks such as chip design, simulation, verification, and manufacturing, and TCL scripting provides an efficient and flexible way to automate these processes. 
 
 
 # Day-1: 
-How to use VSDSYNTH tool box and to create command (Laksh) and pass .csv from UNIX shell to Tcl script.
+Using VSDSYNTH tool box, create a shell command (laksh) and pass .csv from UNIX shell to Tcl script(lakshscript.tcl)
 
 - Create a tcsh shell excutable file Laksh, create logo and give it excute permission.
  
@@ -34,8 +50,13 @@ How to use VSDSYNTH tool box and to create command (Laksh) and pass .csv from UN
 
 - Scenario 4: Source the Unix shell to the Tcl script by passing the required csv file 
 
-```tclsh lakshscript.tcl $argv[1] ```
+  ```tclsh lakshscript.tcl $argv[1] ```
 
 
 # Day-2:
+Convert .csv file content into Yosys readable format (formatY) and .csv file to SDC format using Tcl scripting
+
+- 
+
+
 
