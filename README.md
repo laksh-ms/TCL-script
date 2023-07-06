@@ -1,24 +1,24 @@
 # TCL Scripting: Introduction to Advanced Scripting Techniques in VLSI Design and Synthesis.
 
 
-Author: Lakshmi M S
+_Author: Lakshmi M S_
 
-Acknowledgements: A TCL-Workshop by Kunal Ghosh, VLSI System Design Corp. Pvt. Ltd.
+_Acknowledgements: A TCL-Workshop by [Kunal Ghosh](https://github.com/kunalg123), VLSI System Design Corp. Pvt. Ltd._
 
 # TCL Workshop Agenda
 The agenda for the workshop is to automate User Interface(uI) by using TCL script, which will take RTL netlist & SDC constraints as inputs and will generate synthesized netlist & pre-layout timing report as output. It uses Yosys, a Open source tool for synthesis and Opentimer to generate pre-layout timing reports.
 
 It was achieved as below:
 
-Day-1 : Creating a TCL command and pass .csv file from UNIX shell to tcl script
+[Day-1](#day-1) : Creating a TCL command and pass .csv file from UNIX shell to tcl script
 
-Day-2 : Variable Creation and Processing Constraints from CSV
+[Day-2](#day-2)  : Variable Creation and Processing Constraints from CSV
 
-Day-3 : Processing Clock and Input Constraints
+[Day-3](#day-3)  : Processing Clock and Input Constraints
 
-Day 4: Complete Scripting and Yosys Synthesis
+[Day-4](#day-4) : Complete Scripting and Yosys Synthesis
 
-Day 5: Advanced Scripting Techniques and Quality of Results Generation
+[Day-5](#day-5) : Advanced Scripting Techniques and Quality of Results Generation
 
 
 # Introduction
