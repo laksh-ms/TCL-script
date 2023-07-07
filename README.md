@@ -68,8 +68,9 @@ Convert .csv file content into Yosys readable format (formatY) and .csv file to 
 - Throw error if a file or directory is not present in the path
   ![FileNotInPath](https://github.com/laksh-ms/TCL-script/assets/109785515/a7001764-6c45-4c85-8b39-1294cd0f392e)
 
-- Converting 
--  
+- Converting constraints csv to SDC format
+  ![CSVRowColumnIndex](https://github.com/laksh-ms/TCL-script/assets/109785515/f067c9c7-c59c-4212-a368-278b96063e8e)
+  
 
 # Day-3:
 Creating complete clock constraints and input constraints 
