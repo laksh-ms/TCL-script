@@ -12,9 +12,9 @@ It was achieved as below:
 
 [Day-1](#day-1) : Creating a TCL command and pass .csv file from UNIX shell to tcl script
 
-[Day-2](#day-2)  : Variable Creation and Processing Constraints from CSV
+[Day-2](#day-2) : Variable Creation and Processing Constraints from CSV
 
-[Day-3](#day-3)  : Processing Clock and Input Constraints
+[Day-3](#day-3) : Processing Clock and Input Constraints
 
 [Day-4](#day-4) : Complete Scripting and Yosys Synthesis
 
@@ -58,5 +58,19 @@ Convert .csv file content into Yosys readable format (formatY) and .csv file to 
 
 - 
 
+# Day-3:
+Creating complete clock constraints and input constraints 
 
+- a
+
+# Day-4:
+Yosys synthesis 
+
+- b
+
+
+# Day-5:
+Report generation
+
+- c
 
