@@ -56,7 +56,20 @@ Using VSDSYNTH tool box, create a shell command (laksh) and pass .csv from UNIX 
 # Day-2:
 Convert .csv file content into Yosys readable format (formatY) and .csv file to SDC format using Tcl scripting
 
-- 
+- Data in csv file passed 
+  ![csv_details](https://github.com/laksh-ms/TCL-script/assets/109785515/d8bd7171-7cf1-4891-bf8f-55e2643d6848)
+
+- Creating variables fron csv file
+  ![VariablesFromCSV](https://github.com/laksh-ms/TCL-script/assets/109785515/86225b53-6a40-4e0c-9d44-a31933733d73)
+
+- Checking if all flies and directories are present in the path
+  ![AllFilesFoundInPath](https://github.com/laksh-ms/TCL-script/assets/109785515/b47736ce-0fff-45d1-846a-d1c9eb324202)
+
+- Throw error if a file or directory is not present in the path
+  ![FileNotInPath](https://github.com/laksh-ms/TCL-script/assets/109785515/a7001764-6c45-4c85-8b39-1294cd0f392e)
+
+- Converting 
+-  
 
 # Day-3:
 Creating complete clock constraints and input constraints 
