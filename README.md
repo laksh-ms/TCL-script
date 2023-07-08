@@ -84,10 +84,16 @@ Creating Constraints and dumping them to a .sdc file
   
 
 # Day-4:
-Yosys synthesis 
+Yosys synthesis : Create a tcl script that can Parsing the RTL netlists in a Yosys Synthesis Tool readable format .ys after performing  the hierarchy check to verify if all RTL modules are correctly present, if not that print an error. 
 
-- 
-
+- Checking hierarchy
+  
+- Error in hierarchy checks
+  
+- Parsing the RTL netlists in a Yosys readable format .ys
+  
+- Feed .ys file to Yosys tool generate the below top level Netlist
+  
 
 # Day-5:
 Report generation
