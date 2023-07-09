@@ -77,21 +77,34 @@ Convert .csv file content into Yosys readable format and .csv file to SDC format
 Creating Constraints and dumping them to a .sdc file
 
 - Creating complete clock constraints
-  
+  ![Clock_constraints](https://github.com/laksh-ms/TCL-script/assets/109785515/d7adad02-cdca-49f3-9b15-95a2fe9f0aeb)
+
 - Creating complete input constraints (also diffentiating between bits and bus)
-  
+  ![inoutConstraints](https://github.com/laksh-ms/TCL-script/assets/109785515/650dc87b-8da2-405f-a90c-22581dd33846)
+  ![InputPorts](https://github.com/laksh-ms/TCL-script/assets/109785515/de0f0fdc-ac04-4195-8f29-a8eb03e02cd0)
+
 - Creating complete output constraints (also diffentiating between bits and bus)
-  
+  ![OutputPorts](https://github.com/laksh-ms/TCL-script/assets/109785515/77a49592-7469-4f59-b103-71ed26044d12)
+
 
 # Day-4:
 Yosys synthesis : Create a tcl script that can Parsing the RTL netlists in a Yosys Synthesis Tool readable format .ys after performing  the hierarchy check to verify if all RTL modules are correctly present, if not that print an error. 
 
 - Checking hierarchy
-  
-- Error in hierarchy checks
-  
+  ![CheckingHierarchy](https://github.com/laksh-ms/TCL-script/assets/109785515/8c61f38d-2052-44b7-a305-3d57fcf79e30)
+
+- Example of Error in hierarchy checks
+  ![hierarchyError](https://github.com/laksh-ms/TCL-script/assets/109785515/12f17e5e-6b1b-41f6-968e-c995087a9170)
+
+- Understanding the Error from hierarchy log file
+  ![hierarchyCheck_ErrorLOG](https://github.com/laksh-ms/TCL-script/assets/109785515/800fe49c-3ad8-4835-bef0-906ec02706c2)
+
+- Hierarcghy pass After correcting the error
+  ![HierarchyCheckPASS](https://github.com/laksh-ms/TCL-script/assets/109785515/b5dc805d-5b09-4974-be4c-73f92fa8a930)
+
 - Parsing the RTL netlists in a Yosys readable format .ys
-  
+  ![YosysFormat](https://github.com/laksh-ms/TCL-script/assets/109785515/50c9e79d-f460-44d4-9c5c-74d821365c7f)
+
 - Feed .ys file to Yosys tool generate the below top level Netlist
   
 
