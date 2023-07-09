@@ -88,7 +88,7 @@ Creating Constraints and dumping them to a .sdc file
 
 
 # Day-4:
-Yosys synthesis : Create a tcl script that can Parsing the RTL netlists in a Yosys Synthesis Tool readable format .ys after performing  the hierarchy check to verify if all RTL modules are correctly present, if not that print an error. 
+Yosys synthesis : Create a tcl script that can parse the RTL netlists in to a Yosys Synthesis Tool readable format (.ys) and perform the hierarchy check to verify if all RTL modules are correctly present, if not that print an error. 
 
 - Parsing all RTL netlists in a Yosys readable format (.hier.ys) to perform hierarchy check
   ![YosysFormat](https://github.com/laksh-ms/TCL-script/assets/109785515/50c9e79d-f460-44d4-9c5c-74d821365c7f)
@@ -109,7 +109,7 @@ Yosys synthesis : Create a tcl script that can Parsing the RTL netlists in a Yos
 # Day-5:
 
 
-- Creating yosys format netlist for synthesis
+- Creating yosys format(.ys) netlist for synthesis
   ![Yosysformat4synthesis](https://github.com/laksh-ms/TCL-script/assets/109785515/2ace3e7e-f575-4961-a253-45f980c4a771)
 
   ![runningYosysSynthesis](https://github.com/laksh-ms/TCL-script/assets/109785515/47c8c8b0-dea3-46c7-bcd3-df8c02255a51)
@@ -118,7 +118,7 @@ Yosys synthesis : Create a tcl script that can Parsing the RTL netlists in a Yos
 - Feed the above .ys file to Yosys tool generate the below synthesized gate level Netlist
   ![SynthesizedNetlistFromYosys](https://github.com/laksh-ms/TCL-script/assets/109785515/805ade27-6ec6-468c-9a72-30988bca418e)
 
-- Formating Synthesized netlist for OpenTimer, STA or PNR
+- Formating the above Synthesized netlist for OpenTimer, STA or PNR i.e. (removing all asterisk(*) symbols and replacing backslash(\) symbols with a null character(""))
   ![FormattingSynthesizedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/1f9f577b-4fff-4a49-91de-9ecad6c6c17a)
   ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/a59c41f8-6a41-4e61-a810-f356c9000974)
 
