@@ -102,7 +102,7 @@ Yosys synthesis : Create a tcl script that can Parsing the RTL netlists in a Yos
 - Understanding the Error from hierarchy log file
   ![hierarchyCheck_ErrorLOG](https://github.com/laksh-ms/TCL-script/assets/109785515/800fe49c-3ad8-4835-bef0-906ec02706c2)
 
-- Hierarcghy pass After correcting the error
+- Hierarchy pass After correcting the error
   ![HierarchyCheckPASS](https://github.com/laksh-ms/TCL-script/assets/109785515/b5dc805d-5b09-4974-be4c-73f92fa8a930)
   
 
@@ -122,5 +122,5 @@ Yosys synthesis : Create a tcl script that can Parsing the RTL netlists in a Yos
   ![FormattingSynthesizedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/1f9f577b-4fff-4a49-91de-9ecad6c6c17a)
   ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/a59c41f8-6a41-4e61-a810-f356c9000974)
 
-- 
+- Creating Opentimer readable format 
 
