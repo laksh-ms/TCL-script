@@ -37,16 +37,13 @@ Using VSDSYNTH tool box, create a shell command (laksh) and pass .csv from UNIX 
   Note : Make sure the file is executable by using the above command 
 
 - Scenario 1: User doesn't provide an input CSV file
-  
-    ![NoCSVFile](https://github.com/laksh-ms/TCL-script/assets/109785515/01328f05-939b-4a4e-812a-ee35af3e6343)
-  
+  ![NoCSVFile](https://github.com/laksh-ms/TCL-script/assets/109785515/2565c3a8-88b7-45b3-94ec-88e3257693c8)
+
 - Scenario 2: User providing incorrect CSV
-  
-    ![FileNotFound](https://github.com/laksh-ms/TCL-script/assets/109785515/c45506bf-613a-4fd5-a2bb-b49f4a72b54b)
+  ![FileNotFound](https://github.com/laksh-ms/TCL-script/assets/109785515/edefd9d4-ad9c-4ab2-83d0-9ff4e000371f)
 
 - Scenario 3 : User typing "-help"
-  
-    ![HelpOutput](https://github.com/laksh-ms/TCL-script/assets/109785515/aeabda10-8328-4f2f-b090-cda315b6aeba)
+  ![HelpOutput](https://github.com/laksh-ms/TCL-script/assets/109785515/fb415999-e1b7-47b2-984c-063a7467f6ab)
 
 - Scenario 4: Source the Unix shell to the Tcl script by passing the required csv file 
 
@@ -57,20 +54,20 @@ Using VSDSYNTH tool box, create a shell command (laksh) and pass .csv from UNIX 
 Convert .csv file content into Yosys readable format and .csv file to SDC format using Tcl scripting
 
 - Data in csv file passed 
-  ![csv_details](https://github.com/laksh-ms/TCL-script/assets/109785515/d8bd7171-7cf1-4891-bf8f-55e2643d6848)
+  ![csv_details](https://github.com/laksh-ms/TCL-script/assets/109785515/c6ae3b6e-634b-40ce-9e56-25f00ef16bf5)
 
 - Creating variables fron csv file
-  ![VariablesFromCSV](https://github.com/laksh-ms/TCL-script/assets/109785515/86225b53-6a40-4e0c-9d44-a31933733d73)
+  ![VariablesFromCSV](https://github.com/laksh-ms/TCL-script/assets/109785515/b49b9569-b67f-498d-ba32-b03f87e57ecb)
 
 - Checking if all flies and directories are present in the path
-  ![AllFilesFoundInPath](https://github.com/laksh-ms/TCL-script/assets/109785515/b47736ce-0fff-45d1-846a-d1c9eb324202)
+  ![AllFilesFoundInPath](https://github.com/laksh-ms/TCL-script/assets/109785515/73360fba-2fba-4845-b412-bc475a513a58)
 
 - Throw error if a file or directory is not present in the path
-  ![FileNotInPath](https://github.com/laksh-ms/TCL-script/assets/109785515/a7001764-6c45-4c85-8b39-1294cd0f392e)
+  ![FileNotInPath](https://github.com/laksh-ms/TCL-script/assets/109785515/6f04e87f-1dc5-4bdb-a1e5-ba12d8306696)
 
 - Converting constraints csv to SDC format
-  ![CSVRowColumnIndex](https://github.com/laksh-ms/TCL-script/assets/109785515/f067c9c7-c59c-4212-a368-278b96063e8e)
-  
+  ![CSVRowColumnIndex](https://github.com/laksh-ms/TCL-script/assets/109785515/93028ec5-1432-4af4-badd-3dadf1378ce7)
+
 
 # Day-3:
 
