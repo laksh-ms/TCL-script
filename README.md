@@ -74,34 +74,34 @@ Convert .csv file content into Yosys readable format and .csv file to SDC format
 Creating Constraints and dumping them to a .sdc file
 
 - Creating complete clock constraints
-  ![Clock_constraints](https://github.com/laksh-ms/TCL-script/assets/109785515/d7adad02-cdca-49f3-9b15-95a2fe9f0aeb)
+  ![Clock_constraints](https://github.com/laksh-ms/TCL-script/assets/109785515/79433520-fc6f-42ec-8b7e-b66058c55f69)
 
 - Creating complete input constraints (also diffentiating between bits and bus)
-  ![inoutConstraints](https://github.com/laksh-ms/TCL-script/assets/109785515/650dc87b-8da2-405f-a90c-22581dd33846)
-  ![InputPorts](https://github.com/laksh-ms/TCL-script/assets/109785515/de0f0fdc-ac04-4195-8f29-a8eb03e02cd0)
+  ![inoutConstraints](https://github.com/laksh-ms/TCL-script/assets/109785515/8c98f629-4f22-4e4f-98cf-56c6e1763259)
+  ![InputPorts](https://github.com/laksh-ms/TCL-script/assets/109785515/a9af0fef-9f16-4a70-aeb3-5e516e7a4539)
 
 - Creating complete output constraints (also diffentiating between bits and bus)
-  ![OutputPorts](https://github.com/laksh-ms/TCL-script/assets/109785515/77a49592-7469-4f59-b103-71ed26044d12)
+  ![OutputPorts](https://github.com/laksh-ms/TCL-script/assets/109785515/9ab5d409-2670-4b8b-b5ad-e57aa8a6e068)
 
 
 # Day-4:
 Yosys synthesis : Create a tcl script that can parse the RTL netlists in to a Yosys Synthesis Tool readable format (.ys) and perform the hierarchy check to verify if all RTL modules are correctly present, if not that print an error. 
 
 - Parsing all RTL netlists in a Yosys readable format (.hier.ys) to perform hierarchy check
-  ![YosysFormat](https://github.com/laksh-ms/TCL-script/assets/109785515/50c9e79d-f460-44d4-9c5c-74d821365c7f)
+  ![YosysFormat](https://github.com/laksh-ms/TCL-script/assets/109785515/be5612a2-bab6-4f50-b120-0e36445d515e)
 
 - Checking hierarchy
-  ![CheckingHierarchy](https://github.com/laksh-ms/TCL-script/assets/109785515/8c61f38d-2052-44b7-a305-3d57fcf79e30)
+  ![CheckingHierarchy](https://github.com/laksh-ms/TCL-script/assets/109785515/0d14b35e-4ab3-4e97-aa20-af8f7f235de0)
 
 - Example of Error in hierarchy checks
-  ![hierarchyError](https://github.com/laksh-ms/TCL-script/assets/109785515/12f17e5e-6b1b-41f6-968e-c995087a9170)
+  ![hierarchyError](https://github.com/laksh-ms/TCL-script/assets/109785515/8721de37-464e-413e-9e40-2cf03fe25cdd)
 
 - Understanding the Error from hierarchy log file
-  ![hierarchyCheck_ErrorLOG](https://github.com/laksh-ms/TCL-script/assets/109785515/800fe49c-3ad8-4835-bef0-906ec02706c2)
+  ![hierarchyCheck_ErrorLOG](https://github.com/laksh-ms/TCL-script/assets/109785515/9997f032-0dcc-45bb-8e9c-b35c0989b0fe)
 
 - Hierarchy pass After correcting the error
-  ![HierarchyCheckPASS](https://github.com/laksh-ms/TCL-script/assets/109785515/b5dc805d-5b09-4974-be4c-73f92fa8a930)
-  
+  ![HierarchyCheckPASS](https://github.com/laksh-ms/TCL-script/assets/109785515/fd7be03d-8679-44f2-821e-5a709555a7aa)
+
 
 # Day-5:
 Creating final format for Yosys to synthesize the gate level netlist and to create a final timing format for OpenTimer for STA.
