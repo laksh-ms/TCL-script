@@ -107,17 +107,17 @@ Yosys synthesis : Create a tcl script that can parse the RTL netlists in to a Yo
 Creating final format for Yosys to synthesize the gate level netlist and to create a final timing format for OpenTimer for STA.
 
 - Creating yosys format(.ys) netlist for synthesis
-  ![Yosysformat4synthesis](https://github.com/laksh-ms/TCL-script/assets/109785515/2ace3e7e-f575-4961-a253-45f980c4a771)
-
-  ![runningYosysSynthesis](https://github.com/laksh-ms/TCL-script/assets/109785515/47c8c8b0-dea3-46c7-bcd3-df8c02255a51)
+  ![Yosysformat4synthesis](https://github.com/laksh-ms/TCL-script/assets/109785515/76cda526-eb0e-4e85-bcc0-03e7b5ebf07c)
   
+  ![runningYosysSynthesis](https://github.com/laksh-ms/TCL-script/assets/109785515/5c797825-2027-411b-bd85-56583cdcbe5a)
 
 - Feed the above .ys file to Yosys tool generate the below synthesized gate level Netlist
-  ![SynthesizedNetlistFromYosys](https://github.com/laksh-ms/TCL-script/assets/109785515/805ade27-6ec6-468c-9a72-30988bca418e)
+  ![SynthesizedNetlistFromYosys](https://github.com/laksh-ms/TCL-script/assets/109785515/49a33d2e-c713-44a3-84b2-66c498cabe55)
 
 - Formating the above Synthesized netlist for OpenTimer, STA or PNR i.e. (removing all asterisk(*) symbols and replacing backslash(\) symbols with a null character(""))
-  ![FormattingSynthesizedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/1f9f577b-4fff-4a49-91de-9ecad6c6c17a)
-  ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/a59c41f8-6a41-4e61-a810-f356c9000974)
+  ![FormattingSynthesizedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/10da4601-b792-4d4e-81fc-a70cb25a79d7)
+  
+  ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/37521989-6e88-4d56-9dd1-ec75cf777140)
 
 - Creating Opentimer readable format using procs for setting num of threads, early lib, late lib, reading verilog in .conf file
   ![confFileafter4Proc](https://github.com/laksh-ms/TCL-script/assets/109785515/b626c3b2-0c4b-4863-96e6-0ada04c9f405)
@@ -125,10 +125,10 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
 - Creating Opentimer readable format(.timing) using read sdc proc (Formatting Opentimer readable format for clocks, input, output and load constraints  and of course the buses )
   ![FormattedTimimgFile](https://github.com/laksh-ms/TCL-script/assets/109785515/0a604729-97e8-4cea-8a53-9caac8e4710e)
 
-- Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is not considered.
   ![spefFile](https://github.com/laksh-ms/TCL-script/assets/109785515/ba7167a1-5156-41f6-8c6a-c194385c58fc)
 
--  openMSP430.conf and openMSP430.timing files are fed to OpenTimer tool for STA
+- Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is not considered.
+- openMSP430.conf and openMSP430.timing files are fed to OpenTimer tool for STA
   ![QoR](https://github.com/laksh-ms/TCL-script/assets/109785515/12263cc7-be3f-477b-9b6c-2ff004d0abe4)
 
 -  Final Results
