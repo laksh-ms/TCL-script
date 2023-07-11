@@ -120,7 +120,7 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
   ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/37521989-6e88-4d56-9dd1-ec75cf777140)
 
 - Creating Opentimer readable format using procs for setting num of threads, early lib, late lib, reading verilog in .conf file
-  ![confFileafter4Proc](https://github.com/laksh-ms/TCL-script/assets/109785515/b626c3b2-0c4b-4863-96e6-0ada04c9f405)
+  ![confFileafter4Proc](https://github.com/laksh-ms/TCL-script/assets/109785515/17172a31-a8e3-4a94-9012-c64cfc4cd609)
 
 - Creating Opentimer readable format(.timing) using read sdc proc (Formatting Opentimer readable format for clocks, input, output and load constraints  and of course the buses )
   ![FormattedTimimgFile](https://github.com/laksh-ms/TCL-script/assets/109785515/0a604729-97e8-4cea-8a53-9caac8e4710e)
