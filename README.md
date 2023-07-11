@@ -107,7 +107,7 @@ Yosys synthesis : Create a tcl script that can parse the RTL netlists in to a Yo
   
 
 # Day-5:
-
+Creating final format for Yosys to synthesize the gate level netlist and to create a final timing format for OpenTimer for STA.
 
 - Creating yosys format(.ys) netlist for synthesis
   ![Yosysformat4synthesis](https://github.com/laksh-ms/TCL-script/assets/109785515/2ace3e7e-f575-4961-a253-45f980c4a771)
@@ -122,9 +122,17 @@ Yosys synthesis : Create a tcl script that can parse the RTL netlists in to a Yo
   ![FormattingSynthesizedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/1f9f577b-4fff-4a49-91de-9ecad6c6c17a)
   ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/a59c41f8-6a41-4e61-a810-f356c9000974)
 
-- Creating Opentimer readable format using procs (num of threads, early lib, late lib, reading verilog)
+- Creating Opentimer readable format using procs for setting num of threads, early lib, late lib, reading verilog in .conf file
   
 
-- Creating Opentimer readable format using read sdc proc
-- 
+- Creating Opentimer readable format(.timing) using read sdc proc (Formatting Opentimer readable format for clocks, input, output and load constraints  and of course the buses )
+  
+  
+- Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is omitted i.e. set load parasitic value to 0.
+  
+-  openMSP430.conf and openMSP430.timing files are fed to OpenTimer tool for STA
+-  Final Results
+
+# Conclusion
+Successful TCL scripting was used to Automate the process of pre-layout Synthesis and Static Timing analysis.
 
