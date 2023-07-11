@@ -122,5 +122,9 @@ Yosys synthesis : Create a tcl script that can parse the RTL netlists in to a Yo
   ![FormattingSynthesizedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/1f9f577b-4fff-4a49-91de-9ecad6c6c17a)
   ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/a59c41f8-6a41-4e61-a810-f356c9000974)
 
-- Creating Opentimer readable format 
+- Creating Opentimer readable format using procs (num of threads, early lib, late lib, reading verilog)
+  
+
+- Creating Opentimer readable format using read sdc proc
+- 
 
