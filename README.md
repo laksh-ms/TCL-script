@@ -125,9 +125,9 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
 - Creating Opentimer readable format(.timing) using read sdc proc (Formatting Opentimer readable format for clocks, input, output and load constraints  and of course the buses )
   ![FormattedTimimgFile](https://github.com/laksh-ms/TCL-script/assets/109785515/0a604729-97e8-4cea-8a53-9caac8e4710e)
 
+- Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is not considered. Update the .spef file for OpenTimer
   ![spefFile](https://github.com/laksh-ms/TCL-script/assets/109785515/ba7167a1-5156-41f6-8c6a-c194385c58fc)
 
-- Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is not considered.
 - openMSP430.conf and openMSP430.timing files are fed to OpenTimer tool for STA
   ![QoR](https://github.com/laksh-ms/TCL-script/assets/109785515/12263cc7-be3f-477b-9b6c-2ff004d0abe4)
 
