@@ -138,5 +138,5 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
   ![FinalQOR](https://github.com/laksh-ms/TCL-script/assets/109785515/53fe4da5-bdb7-4c94-b79f-4ab23d9c6302)
 
 # Conclusion
-Successful TCL scripting was used to Automate the process of pre-layout Synthesis and Static Timing analysis.
+TCL scripting was successfully used to Automate the process of pre-layout Synthesis and Static Timing analysis.
 
