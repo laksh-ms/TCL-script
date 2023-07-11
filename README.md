@@ -123,15 +123,19 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
   ![FormattedNetlist](https://github.com/laksh-ms/TCL-script/assets/109785515/a59c41f8-6a41-4e61-a810-f356c9000974)
 
 - Creating Opentimer readable format using procs for setting num of threads, early lib, late lib, reading verilog in .conf file
-  
+  ![confFileafter4Proc](https://github.com/laksh-ms/TCL-script/assets/109785515/b626c3b2-0c4b-4863-96e6-0ada04c9f405)
 
 - Creating Opentimer readable format(.timing) using read sdc proc (Formatting Opentimer readable format for clocks, input, output and load constraints  and of course the buses )
+  ![FormattedTimimgFile](https://github.com/laksh-ms/TCL-script/assets/109785515/22634b0c-beb5-40ff-809b-35123a5a0475)
   
-  
-- Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is omitted i.e. set load parasitic value to 0.
-  
+- Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is not considered.
+  ![spefFile](https://github.com/laksh-ms/TCL-script/assets/109785515/fac3ae98-13b9-4bb5-8a22-7fb2a1deafae)
+
 -  openMSP430.conf and openMSP430.timing files are fed to OpenTimer tool for STA
+  ![QoR](https://github.com/laksh-ms/TCL-script/assets/109785515/fe2baebe-5f5a-4c6f-bbae-eb37bd0e12f8)
+
 -  Final Results
+  ![FinalQOR](https://github.com/laksh-ms/TCL-script/assets/109785515/53fe4da5-bdb7-4c94-b79f-4ab23d9c6302)
 
 # Conclusion
 Successful TCL scripting was used to Automate the process of pre-layout Synthesis and Static Timing analysis.
