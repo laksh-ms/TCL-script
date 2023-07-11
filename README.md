@@ -126,17 +126,17 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
   ![confFileafter4Proc](https://github.com/laksh-ms/TCL-script/assets/109785515/b626c3b2-0c4b-4863-96e6-0ada04c9f405)
 
 - Creating Opentimer readable format(.timing) using read sdc proc (Formatting Opentimer readable format for clocks, input, output and load constraints  and of course the buses )
-  ![FormattedTimimgFile](https://github.com/laksh-ms/TCL-script/assets/109785515/22634b0c-beb5-40ff-809b-35123a5a0475)
-  
+  ![FormattedTimimgFile](https://github.com/laksh-ms/TCL-script/assets/109785515/0a604729-97e8-4cea-8a53-9caac8e4710e)
+
 - Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is not considered.
-  ![spefFile](https://github.com/laksh-ms/TCL-script/assets/109785515/fac3ae98-13b9-4bb5-8a22-7fb2a1deafae)
+  ![spefFile](https://github.com/laksh-ms/TCL-script/assets/109785515/ba7167a1-5156-41f6-8c6a-c194385c58fc)
 
 -  openMSP430.conf and openMSP430.timing files are fed to OpenTimer tool for STA
-  ![QoR](https://github.com/laksh-ms/TCL-script/assets/109785515/fe2baebe-5f5a-4c6f-bbae-eb37bd0e12f8)
+  ![QoR](https://github.com/laksh-ms/TCL-script/assets/109785515/12263cc7-be3f-477b-9b6c-2ff004d0abe4)
 
 -  Final Results
   Results formatted in to a tabular form.
-![FinalQOR](https://github.com/laksh-ms/TCL-script/assets/109785515/f9de9fa6-5927-4886-ba09-f7e9fef06c91)
+  ![FinalQOR](https://github.com/laksh-ms/TCL-script/assets/109785515/f9de9fa6-5927-4886-ba09-f7e9fef06c91)
 
 
 # Conclusion
