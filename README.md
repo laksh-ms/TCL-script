@@ -133,7 +133,7 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
 
 -  Final Results
   Results formatted in to a tabular form.
-  ![FinalQOR](https://github.com/laksh-ms/TCL-script/assets/109785515/f9de9fa6-5927-4886-ba09-f7e9fef06c91)
+  ![Pre-layout-TimingAnalysis](https://github.com/laksh-ms/TCL-script/assets/109785515/c62e4ab4-8069-46c9-a76f-5d0dd1f71005)
 
 
 # Conclusion
