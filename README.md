@@ -128,11 +128,9 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
 - Since routing is not yet done, enable the prelayout timing variable so that the wire load parasitics is not considered. Update the .spef file for OpenTimer
   ![spefFile](https://github.com/laksh-ms/TCL-script/assets/109785515/ba7167a1-5156-41f6-8c6a-c194385c58fc)
 
-- openMSP430.conf and openMSP430.timing files are fed to OpenTimer tool for STA
-  ![QoR](https://github.com/laksh-ms/TCL-script/assets/109785515/12263cc7-be3f-477b-9b6c-2ff004d0abe4)
+- QOR (Quality of Results)
+  Results formatted in to a tabular formo after penMSP430.conf and openMSP430.timing files were fed to OpenTimer tool for STA
 
--  Final Results
-  Results formatted in to a tabular form.
   ![Pre-layout-TimingAnalysis](https://github.com/laksh-ms/TCL-script/assets/109785515/c62e4ab4-8069-46c9-a76f-5d0dd1f71005)
 
 
