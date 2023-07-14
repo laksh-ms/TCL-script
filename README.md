@@ -129,7 +129,7 @@ Creating final format for Yosys to synthesize the gate level netlist and to crea
   ![spefFile](https://github.com/laksh-ms/TCL-script/assets/109785515/ba7167a1-5156-41f6-8c6a-c194385c58fc)
 
 - QOR (Quality of Results)
-  Results formatted in to a tabular formo after penMSP430.conf and openMSP430.timing files were fed to OpenTimer tool for STA
+  Results formatted in to a tabular form : openMSP430.conf and openMSP430.timing files were fed to OpenTimer tool for STA
 
   ![Pre-layout-TimingAnalysis](https://github.com/laksh-ms/TCL-script/assets/109785515/c62e4ab4-8069-46c9-a76f-5d0dd1f71005)
 
